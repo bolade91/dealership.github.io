@@ -1,0 +1,337 @@
+<!doctype html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Automotive | Responsive HTML5 Template - Documentation</title>
+        <meta name="description" content="Thank you for purchasing my theme">
+        <meta name="author" content="coralixthemes">
+        <meta name="copyright" content="coralixthemes">
+        <link rel="stylesheet" href="/css/documenter_style.css" media="all">
+        <script src="/js/jquery.1.6.4.js"></script>
+        <script src="/js/jquery.scrollTo-1.4.2-min.js"></script>
+        <script src="/js/jquery.easing.js"></script>
+        <link rel="stylesheet" href="/css/shDocumenter.css" media="screen">
+        <script src="/js/shCore.js"></script>
+        <script src="/js/shBrushXml.js"></script>
+        <script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+        <script>document.createElement('section');var duration=500,easing='swing';</script>
+        <script src="/js/script.js"></script>
+    <style>
+    html {
+        background-color:#E6E6E6;
+        color:#383838;
+    }
+            ::-moz-selection {
+    background:#333636;
+    color:#00DFFC;
+    }
+    ::selection {
+        background:#333636;
+        color:#00DFFC;
+    }
+    #documenter_sidebar #documenter_logo {
+    background-image:url("images/image_1.png");
+    background-position:center 15px;
+    }
+    a {
+        color:#008C9E;
+    }
+	img {
+	margin: 10px 0 20px 0;
+	max-width:70%;
+
+	}
+    hr {
+        border-top:1px solid #D4D4D4;
+        border-bottom:1px solid #FFFFFF;
+    }
+    #documenter_sidebar, #documenter_sidebar ol a {
+        background-color:#343838;
+        color:#FFFFFF;
+    }
+    #documenter_sidebar ol a {
+        -webkit-text-shadow:1px 1px 0px #494F4F;
+        -moz-text-shadow:1px 1px 0px #494F4F;
+        text-shadow:1px 1px 0px #494F4F;
+    }
+    #documenter_sidebar ol {
+        border-top:1px solid #212424;
+    }
+    #documenter_sidebar ol a {
+        border-top:1px solid #494F4F;
+        border-bottom:1px solid #212424;
+        color:#FFFFFF;
+    }
+    #documenter_sidebar ol a:hover {
+        background:#333636;
+        color:#00DFFC;
+        border-top:1px solid #333636;
+    }
+    #documenter_sidebar ol a.current {
+        background:#333636;
+        color:#00DFFC;
+        border-top:1px solid #333636;
+    }
+    #documenter_copyright {
+        display:block !important;
+        visibility:visible !important;
+    }
+    </style>
+</head>
+
+
+<body>
+<div id="documenter_sidebar"> <a href="#documenter_cover" id="documenter_logo"></a>
+  <ol id="documenter_nav">
+    <li><a class="current" href="#documenter_cover">Start</a></li>
+    <li><a href="#tips">General Tips</a></li>
+    <li><a href="#installation">Template Installation</a></li>
+    <li><a href="#html_structure">HTML Structure</a></li>
+    <li><a href="#css_files_and_structure">CSS Files and Structure</a></li>
+    <li><a href="#javascript_files">Javascript Files</a></li>
+    <li><a href="#edition">Template Edition</a></li>
+    <li><a href="#psd">PSD</a></li>
+    <li><a href="#more-templates">More Templates</a></li>
+    <li><a href="#credits">Credits</a></li>
+    <li><a href="#help">Need Help?</a></li>
+  </ol>
+  <div id="documenter_copyright">Copyright Coralix Themes</div>
+</div>
+
+<div id="documenter_content">
+  <section id="documenter_cover">
+    <h1>Automotive | Responsive HTML5 Template</h1>
+    <h2>Documentation</h2>
+    <hr>
+    <ul>
+      <li>Created: 20 February 13</li>
+      <li>By: Coralix Themes</li>
+    </ul>
+     <a href="http://themeforest.net/item/automotive-cars-dealer-responsive-html5css3/4066571" target="_blank"><img src="http://3.s3.envato.com/files/50971174/00-Preview.__large_preview.jpg" alt="img"></a>
+  </section>
+
+
+
+  <section id="tips">
+    <h3>TIPS</h3>
+    <hr class="notop">
+    <p>USE FIREBUG or Chrome DEVELOPER TOOLS!</p>
+    <p> I am not going to tell you about when i discovered this great tool, or&nbsp;necessarily why i like it and so on.&nbsp;I&#39;m actually going to push you into using it :) I mean it, you can&#39;t be a serious developer unless you&#39;re using it.</p>
+    <p>Scenarios:</p>
+    <ul>
+      <li> You want to change the size/color/etc of a certain font and search into 3 stylesheets with 1000 lines each and you can find that damn rule which contains the property</li>
+      <li> You want to get rid of an ugly space somewhere</li>
+      <li> Some block has some absolute position and overlays another block</li>
+      <li> You want to inspect an element to see if it has some sort of margin padding etc.</li>
+      <li> And etc. etc.</li>
+    </ul>
+    <p> Mainly (for me), Firebug is about tracking the css code and to debug a website seeing the actual final (generated code). This tool is about productivity, you want to make things quicker - you should have it; you want to make things better - you should have it; you want to learn more and more - YOU SHOULD HAVE IT.</p>
+    <p> Now, <strong>Firebug</strong> is made for <strong>Mozilla Firefox</strong>, you can find it <a href="https://addons.mozilla.org/ro/firefox/addon/firebug/" rel="nofollow" target="_blank">here</a></p>
+    <p> For those of you who are using different browsers you already have some builtin tools:&nbsp;<a href="http://blog.chromium.org/2009/06/developer-tools-for-google-chrome.html" target="_blank">Chrome</a>&nbsp;/&nbsp;<a href="http://developer.apple.com/technologies/safari/developer-tools.html" rel="nofollow" target="_blank">Safari</a>&nbsp;/&nbsp;<a href="http://dev.opera.com/tools/" rel="nofollow" target="_blank">Opera</a>/<a href="http://www.microsoft.com/download/en/details.aspx?id=18359" rel="nofollow" target="_blank">Internet Explorer</a></p>
+    <p> Instead of making huge tutorials about Firebug here, i will point you some great links so you can easily learn it:</p>
+    <ul>
+      <li> <a href="http://www.youtube.com/watch?v=FsX6qwQqGgQ" rel="nofollow" target="_blank">Introduction to CSS editing using Firebug</a></li>
+      <li> <a href="http://www.youtube.com/watch?v=sHbYpl1XFiM&amp;feature=related" rel="nofollow" target="_blank">Firebug tutorial - Inspect HTML and CSS</a></li>
+      <li> <a href="http://net.tutsplus.com/tutorials/other/10-reasons-why-you-should-be-using-firebug/" rel="nofollow" target="_blank">10 Reasons Why You Should Be Using Firebug</a></li>
+    </ul>
+    <p>Please ENJOY!</p>
+  </section>
+
+
+  <section id="installation">
+    <h3>Template Installation</h3>
+    <hr class="notop">
+    <p>Pages:</p>
+   <ul>
+   		<li>index.html</li>
+        <li>homev2.html</li>
+        <li>homev3.html</li>
+        <li>header.html</li>
+        <li>footer.html</li>
+        <li>contact.html</li>
+        <li>advance-search.html</li>
+        <li>about-us.html</li>
+        <li>404.html</li>
+        <li>range.html</li>
+        <li>rent.html</li>
+        <li>sell.html</li>
+        <li>showroom.html</li>
+        <li>sidebar-right.html</li>
+        <li>single-car.html</li>
+        <li>single-post.html</li>
+        <li>timeline.html</li>
+   </ul>
+    <p> You can view this template in any web browser from your desktop computer. Because the files are written in HTML, you do not need an internet connection in order to display or edit the template.</p>
+    <p>All of the HTML files are given a descriptive name to make it easier to distingish what each file will display.</p>
+    <h4>Upload to The Server</h4>
+
+    <ol>
+        <li>It's important to understand that you must either have your own server space or use someone elses. The server space can be purchased at many different places around the internet. You need somewhere to put the files that you purchased so others can find them online.</li>
+        <li>Select /html folder and then choose the layout you want. After you choose, there will have several files with the extension labeled .html. This is where all your content will. In addition to .html you should see a file labeled .css. .css files are going to be the files that will tell the .html how to to be styled. CSS is simply a way to take text, images, and other elements and change the look of them. It's very important to keep the .css file with the HTML or the HTML will not look how the design is meant to look. Along with the HTML and CSS files, you will also have three additional folders to upload; css, images, and js.</li>
+        <li>Start your FTP client (I persoanlly use <a href="https://filezilla-project.org/" target="_blank">Filezilla</a> which is free) and login. Login to your server. You will need your server name (often times this will be your domain name), username, and password that you setup with the hosting company.</li>
+        <p><img src="images/filezilla.jpg" alt="Filezilla preview image"></p>
+        <li>Locate the domain folder you wish to upload your template files to on your server. You are going to want to click and drag every file that you have labeled .html, .css, .js into your FTP client.</li>
+        <p><img src="images/filezilla-example.jpg" alt="Filezilla preview image"></p>
+        <li>Once the files are done uploading, you can try access your website via browser.</li>
+    </ol>
+
+  </section>
+
+
+
+
+
+  <section id="html_structure">
+    <h3>HTML Structure</h3>
+    <hr class="notop">
+    <div> In this template I used as a framework: BOOTSTRAP Framework. You can take a look here http://twitter.github.com/bootstrap/ and see it´s awesome feature in action</div>
+    <div> I mostly kept the generic styles, resets &amp; grid.&nbsp;</div>
+    <div> So as a short description, the grid is composed by 12 columns, named like &quot;span1&quot;, &quot;span2&quot;, &quot;span3&quot;....&quot;span12&quot;. The span div&#39;s should be placed in rows and the rows in a container.</div>
+    <div> A basic layout of the grids look like:</div>
+    <img src="images/html.png" alt="structure">
+	</section>
+
+
+
+
+  <section id="css_files_and_structure">
+    <h3>CSS Files and Structure</h3>
+    <hr class="notop">
+
+    <div> I am using several CSS files in this template</div>
+    <p class="info"> As you can see , there are several css files used by the template.</p>
+    <img src="images/css.png" alt="css">
+    <pre class="brush: html;" class="syntaxhighlighter  html">
+
+          /* Site Styles
+			================================================== */
+
+                /* header */
+
+                /* slider */
+
+                /* main container
+
+                /* footer */
+
+		</pre>
+  </section>
+
+
+
+    <section id="javascript_files">
+        <h3>Javascript Files</h3>
+        <hr class="notop">
+        <p> This template use several JS files.</p>
+        <p>The custom js for this template is called: scripts.js and each script has a Comment title</p>
+        <img src="images/javascript.png" alt="js">
+    </section>
+
+
+
+    <section id="edition">
+           <h2>Home Page Edition</h2>
+           <p><img src="images/costumozation-01.jpg" alt="customization"></p>
+           <p><img src="images/costumozation-02.jpg" alt="customization"></p>
+           <p><img src="images/costumozation-03.jpg" alt="customization"></p>
+           <p><img src="images/costumozation-04.jpg" alt="customization"></p>
+           <p><img src="images/costumozation-05.jpg" alt="customization"></p>
+           <h2>Logo Edition</h2>
+           <p>Open the file img/logo.png and replace it for your logo. Save it with the same name. Be sure to save it as PNG.<br />
+           If you save it as JPG you will have to edit the html file and replace logo.png for logo.jpg. </p>
+    </section>
+
+
+
+    <section id="psd">
+        <h3>PSD Files</h3>
+        <hr class="notop">
+        <p>Photoshop Files are not included in the html template</p>
+        <strong>15 PSD Files</strong> : Feel free to buy them at our Themeforest Profile.
+        <p>PSD Files</p>
+            <ul class="list3">
+              <li>01-Home.psd</li>
+              <li>02-Home v2.psd</li>
+              <li>03-Home v3.psd</li>
+              <li>04-Rent.psd</li>
+              <li>05-Showroom.psd</li>
+              <li>06-Sell.psd</li>
+              <li>07-News.psd</li>
+              <li>08-News Single Post.psd</li>
+              <li>09-Advanced Search.psd</li>
+              <li>10-About us.psd</li>
+              <li>11-Single Car Page.psd</li>
+              <li>12-Contact.psd</li>
+              <li>13-Error 404.psd</li>
+              <li>14-Login.psd</li>
+              <li>15-Chat.psd</li>
+          </ul>
+          <h4>Well Organized and Named Layers</h4>
+          <p><img src="images/photoshop.png" alt="photoshop" /></p>
+    </section>
+
+
+    <section id="more-templates">
+        <h3>See our Public Collections on Themeforest</h3>
+        <hr class="notop">
+        <p>We have more Fitness and Sport templates, see them all: </p>
+        <a href="http://themeforest.net/collections/3129965-fitness-gym" target="_blank"><img src="http://3.s3.envato.com/files/55702943/fitness.jpg" alt=""></a>
+        <a href="http://themeforest.net/collections/3129931-landing-page-templates" target="_blank"><img src="http://1.s3.envato.com/files/55700977/Collections-landingpages.jpg" alt=""></a>
+        <a href="http://themeforest.net/collections/3129945-real-estate" target="_blank"><img src="http://2.s3.envato.com/files/55701767/Collections-realestate.jpg" alt=""></a>
+        <a href="http://themeforest.net/collections/3129991-resume" target="_blank"><img src="http://0.s3.envato.com/files/55704000/resume.jpg" alt=""></a>
+        <a href="http://themeforest.net/collections/3130003-music-band" target="_blank"><img src="http://3.s3.envato.com/files/55704792/music%20band.jpg" alt=""></a>
+        <a href="http://themeforest.net/collections/3144704-creative-portfolio" target="_blank"><img src="http://2.s3.envato.com/files/56090851/creative-portfolio.png" alt=""></a>
+        <a href="http://themeforest.net/collections/3828710-medical-health-premium-themes" target="_blank"><img src="http://2.s3.envato.com/files/71936934/medicine.jpg" alt=""></a>
+        <h3>Visit our Profile on Themeforest</h3>
+        <a href="http://themeforest.net/user/CoralixThemes"><img src="http://1.s3.envato.com/files/70564349/profile-tf.jpg" alt=""></a>
+    </section>
+
+
+
+
+  <section id="credits">
+    <h3>Credits </h3>
+    <hr class="notop">
+    <h4>Images</h4>
+	<ul>
+        <li><a href="http://dribbble.com/shots/977830-Apple-devices-Flat-icons-PSD?list=users" target="_blank">Apple devices - Flat icons (PSD)</a></li>
+        <li><a href="http://dribbble.com/shots/997747-Apple-flat-devices-Episode-2-PSD?list=users" target="_blank">Apple flat devices - Episode#2 (PSD)</a></li>
+    </ul>
+
+    <h4>Code</h4>
+    <ul>
+          <li><a href="http://twitter.github.com/bootstrap/" target="_blank">Boostrap Framework - All the Documentation is there</a> </li>
+          <li><a href="http://jquery.com/" target="_blank">Jquery </a> </li>
+          <li><a href="http://tympanus.net/codrops/" target="_blank"> Codrops - For menu animation</a> </li>
+          <li><a href="http://daneden.me/animate/" target="_blank"> CSS Animations - All the Documentation is there</a> </li>
+	</ul>
+    <h4>Fonts</h4>
+           <ul>
+                <li><a href="http://www.google.com/fonts#UsePlace:use/Collection:Open+Sans" target="_blank">Open Sans - Free Google Font</a> </li>
+          </ul>
+   <h4>Icons</h4>
+   <ul>
+          <li><a href="http://fontello.com/" target="_blank">www.fontello.com - Icon fonts</a> </li>
+    </ul>
+
+    <h3>If you like our theme please do not forget to rate it!</h3>
+    <img src="http://f.cl.ly/items/3W330L1Z180n1I232R0S/review.png">
+  </section>
+
+
+    <section id="help">
+        <h3>Do you need help?</h3>
+        <hr class="notop">
+        <p> Please do not use the comments section or the contact from on Themeforest.</p>
+        <p>We can help you only at our <a href="https://coralixthemes.ticksy.com/" target="_blank">Support Page</a></p>
+        <div> Note: I do not offer customizations included in support! Thank you for understanding!</div>
+    </section>
+
+</div>
+</body>
+</html>
