@@ -16,13 +16,14 @@ connection.connect(function(err){
 });*/
 
 app=express();
+
 var port=process.env.PORT || 3220;
 app.set('view engine', 'ejs');
 
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({extended: true}));
 
-var candidats = []
+var candidats = [];
 
 app.get("/", function(req, res){
 	res.render("index");
