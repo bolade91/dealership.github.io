@@ -16,6 +16,7 @@ connection.connect(function(err){
 });*/
 
 app=express();
+var port=process.env.PORT || 3220;
 app.set('view engine', 'ejs');
 
 app.use(express.static(__dirname + '/public'));
@@ -56,6 +57,6 @@ app.get("/contact", function(req, res){
 });
 
 app.listen(3220, "localhost", function(){
-	console.log("server listening on port 3220");
+	console.log("server listening on port "+port);
 });
 
